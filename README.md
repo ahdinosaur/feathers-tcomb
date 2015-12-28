@@ -26,7 +26,7 @@ var app = feathers()
   .configure(feathers.rest())
   .configure(hooks())
   .use(bodyParser.urlencoded({ extended: true }))
-  .use('things', memory())
+  .use('/things', memory())
 
 var Thing = t.struct({
   id: t.Number,
