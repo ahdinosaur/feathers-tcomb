@@ -31,7 +31,7 @@ var app = feathers()
 var Thing = t.struct({
   id: t.Number,
   name: t.String
-})
+}, 'Thing')
 
 validate(app.service('things'), Thing)
 ```
