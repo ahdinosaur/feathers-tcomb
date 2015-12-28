@@ -1,7 +1,7 @@
 {
   "name": "feathers-tcomb",
   "version": "1.0.0",
-  "description": "validate feathers services using tcomb validation",
+  "description": "validate feathers services using tcomb",
   "main": "index.js",
   "scripts": {
     "test": "standard && tape test.js"
