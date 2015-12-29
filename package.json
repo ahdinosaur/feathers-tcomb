@@ -12,6 +12,7 @@
   },
   "keywords": [
     "feathers",
+    "feathers-plugin",
     "tcomb",
     "model",
     "schema",
